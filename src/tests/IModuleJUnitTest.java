@@ -5,6 +5,14 @@ import org.junit.jupiter.api.Test;
 
 import java.util.Random;
 
+import static modules.IModule.binarySearch;
+import static modules.IModule.bubbleSort;
+import static modules.IModule.insertionSort;
+import static modules.IModule.mergeSort;
+import static modules.IModule.quickSort;
+import static modules.IModule.selectionSort;
+
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
