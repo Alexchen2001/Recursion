@@ -4,28 +4,56 @@ public class RecursionProgram {
 
     public static int fac(int n) {
         //TODO: COMPLETE BODY
-        return 0;
+        if (n ==0 || n ==1){
+            return 1;
+        } else{
+            return 0;
+        }
     }
 
     public static int fib(int n) {
         //TODO : COMPLETE BODY
-        return 0;
+        if (n == 0){
+            return 0;
+        } else if(n ==1){
+            return 1;
+        }else{
+            return fib(n -1) + fib(n-2);
+        }
     }
 
     public static boolean isPalindrome(String s) {
         //TODO : COMPLETE BODY
-        return false;
+        int len = s.length();
+
+        if (len < 2){
+            return true;
+        }else{
+            char first = s.charAt(0);
+            char last = s.charAt(len-1);
+            String middle = s.substring(1, len -1);
+            return (first == last) && isPalindrome(middle);
+        }
     }
 
     public static double pow(double x, int n) {
         //TODO: COMPLETE BODY
-        return 0;
+        if (n ==0){
+            return 1;
+        }else{
+            return  n * pow(x, n - 1);
+        }
     }
 
     public static int sum(int n) {
         //TODO : COMPLETE BODY
-        return 0;
+        if (n == 1) {
+            return 1;
+        } else {
+            return n + sum(n -1);
+        }
     }
+
 
     public static void testPalindrome(){
         System.out.println();

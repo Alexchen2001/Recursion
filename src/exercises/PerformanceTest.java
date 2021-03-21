@@ -109,18 +109,18 @@ public class PerformanceTest {
         int[] data9  = dataSet(250000);
         int[] data10 = dataSet(500000);
 
-        System.out.println();
-        System.out.println("Range 1 - Run Time Analysis");
-        timeAlgoRange01(data1);
-        timeAlgoRange01(data2);
-        timeAlgoRange01(data3);
-        timeAlgoRange01(data4);
-        timeAlgoRange01(data5);
-        timeAlgoRange01(data6);
-        timeAlgoRange01(data7);
-        timeAlgoRange01(data8);
-        timeAlgoRange01(data9);
-        timeAlgoRange01(data10);
+//        System.out.println();
+//        System.out.println("Range 1 - Run Time Analysis");
+//        timeAlgoRange01(data1);
+//        timeAlgoRange01(data2);
+//        timeAlgoRange01(data3);
+//        timeAlgoRange01(data4);
+//        timeAlgoRange01(data5);
+//        timeAlgoRange01(data6);
+//        timeAlgoRange01(data7);
+//        timeAlgoRange01(data8);
+//        timeAlgoRange01(data9);
+//        timeAlgoRange01(data10);
 
 //		System.out.println();
 //		System.out.println("Range 2 - Run Time Analysis");
@@ -134,7 +134,7 @@ public class PerformanceTest {
 //		timeAlgoRange02(data8);
 //		timeAlgoRange02(data9);
 //		timeAlgoRange02(data10);
-//
+
 //        System.out.println();
 //        System.out.println("Data Set - 9 to 18 for Range 3");
 //
