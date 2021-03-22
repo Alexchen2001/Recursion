@@ -48,8 +48,8 @@ public class FibonacciTest {
             return 1;
         }else {
             long fib_n = 0;
-            long fib_n_2 = 1;
-            long fib_n_1 = 0;
+            long fib_n_2 = 0;
+            long fib_n_1 = 1;
 
             for (int i = 2; i <=n; i++) {
                 fib_n = fib_n_1 + fib_n_2;

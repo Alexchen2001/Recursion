@@ -7,7 +7,7 @@ public class RecursionProgram {
         if (n ==0 || n ==1){
             return 1;
         } else{
-            return 0;
+            return n * fac(n -1);
         }
     }
 
@@ -38,10 +38,10 @@ public class RecursionProgram {
 
     public static double pow(double x, int n) {
         //TODO: COMPLETE BODY
-        if (n ==0){
+        if (n == 0){
             return 1;
         }else{
-            return  n * pow(x, n - 1);
+            return  x * pow(x, n - 1);
         }
     }
 
@@ -121,6 +121,10 @@ public class RecursionProgram {
     }
 
     public static void main(String[] args) {
+        testRecursiveMath();
+        testPalindrome();
+
+
 
     }
 }
